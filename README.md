@@ -1,2 +1,2 @@
-# galantix-test-tasks
+# galanix-test-tasks
 
