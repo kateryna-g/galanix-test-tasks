@@ -1,0 +1,58 @@
+.flags {
+    display: flex;
+    flex-direction: column;
+}
+
+.flag {
+    display: flex;
+    margin: 20px auto; /*Центрирование блока по горизонтали на странице*/
+    justify-content: center; /*Центрирование внутренностей блока по горизонтали*/
+    align-items: center; /*Центрирование внутренностей блока по вертикали */
+    width: 300px;
+    height: 200px;
+    border: 1px solid #CCCCCC;
+}
+
+.flag-ukraine {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to bottom, #157cc7,#157cc7 50%,#ff0 50%, #ff0);
+}
+
+.flag-japan {
+    width: 120px;
+    height: 120px;
+    background: #BC002D;
+    border-radius: 50%;
+}
+
+.flag-iceland {
+    width:300px;
+    height:200px;
+    background:
+            linear-gradient(blue,blue) 0 0      /45px 45px,
+            linear-gradient(blue,blue) 0 100%   /45px 100px,
+            linear-gradient(blue,blue) 100% 0   /200px 45px,
+            linear-gradient(blue,blue) 100% 100%/200px 100px,
+
+            linear-gradient(red,red)   60px 0/ 25px 100%,
+            linear-gradient(red,red)   0 60px/ 100% 25px;
+    background-repeat:no-repeat;
+}
+
+.flag-czech {
+    height: 200px;
+    width: 300px;
+    border: solid 1px #000000;
+    background: linear-gradient(to bottom, white 50%, red 50%);
+}
+
+.flag-czech::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-left: 150px solid #0000ff;
+    border-bottom: 100px solid transparent;
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Test task 2</title>
+  <script async src="index.js"></script>
+</head>
+<body>
+<main>
+  <header>
+    <div class="current-date" id="date"></div>
+    <div class="images-count" id="imagesCount"></div>
+  </header>
+  <section class="pictures">
+
+    <div class="pictures-wrap"></div>
+
+    <button onclick="restoreImages()">Restore</button>
+  </section>
+  <div class="overlay" id="overlay">
+    <div class="overlay-container">
+      <div class="modal">
+        <div class="modal-header">
+          <button onclick="closeModalWindow()" class="close-button">close</button>
+        </div>
+        <div class="modal-content">
+          <img id="modal-image">
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.form-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.table {
+  text-align: center;
+  border: 1px solid #CCCCCC;
+  border-collapse: collapse;
+  margin-top: 24px;
+}
+
+td {
+  border: 1px solid #CCCCCC;
+  padding: 4px;
+}
+
+tr.border {
+  padding: 4px;
+  border: 1px solid #CCCCCC;
+}
+
+.checkboxes {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
